@@ -129,6 +129,16 @@ h3 {
   line-height: 1.1;
 }
 
+/* Fix large margin between header and text */
+h1,
+h2,
+h3,
+h4,
+h5,
+h6 {
+  margin-block-end: -0.9rem;
+}
+
 /* Reduce header size on mobile */
 @media only screen and (max-width: 720px) {
   h1 {
